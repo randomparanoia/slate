@@ -2,9 +2,7 @@
 title: API Reference
 
 language_tabs: # must be one of https://git.io/vQNgJ
-  - shell
-  - ruby
-  - python
+  - shell: cURL
   - javascript
 
 toc_footers:
@@ -19,11 +17,7 @@ search: true
 
 # Introduction
 
-Welcome to the Kittn API! You can use our API to access Kittn API endpoints, which can get information on various cats, kittens, and breeds in our database.
-
-We have language bindings in Shell, Ruby, and Python! You can view code examples in the dark area to the right, and you can switch the programming language of the examples with the tabs in the top right.
-
-This example API documentation page was created with [Slate](https://github.com/lord/slate). Feel free to edit it and use it as a base for your own API's documentation.
+Welcome to the Rotauto.com API! You can use our API to access API endpoints, which can get information on our database.
 
 # Authentication
 
@@ -65,9 +59,9 @@ Kittn expects for the API key to be included in all API requests to the server i
 You must replace <code>meowmeowmeow</code> with your personal API key.
 </aside>
 
-# Kittens
+# Listings
 
-## Get All Kittens
+## Get All Listings
 
 ```ruby
 require 'kittn'
@@ -133,7 +127,7 @@ available | true | If set to false, the result will include kittens that have al
 Remember — a happy kitten is an authenticated kitten!
 </aside>
 
-## Get a Specific Kitten
+## Get a Specific Listing
 
 ```ruby
 require 'kittn'
@@ -187,7 +181,7 @@ Parameter | Description
 --------- | -----------
 ID | The ID of the kitten to retrieve
 
-## Delete a Specific Kitten
+## Delete a Specific Listing
 
 ```ruby
 require 'kittn'
